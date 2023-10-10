@@ -1,0 +1,35 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+.dfedf {
+  min-width: 310px;
+  max-width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+::ng-deep {
+  .highcharts-root,
+  .highcharts-tooltip > span {
+  }
+
+  .chart-tooltip {
+    text-align: center;
+  }
+
+  .highcharts-tooltip > span {
+
+    .chart-tooltip {
+      .value,
+      .key {
+      }
+      .value {
+        font-weight: 600;
+      }
+      .key {
+        font-weight: 400;
+      }
+    }
+  }
+}
